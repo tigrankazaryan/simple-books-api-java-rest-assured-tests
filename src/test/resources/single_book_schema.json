@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "author",
+        "type",
+        "price",
+        "current-stock",
+        "available"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string"
+        },
+        "isbn": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "price": {
+            "type": "number"
+        },
+        "current-stock": {
+            "type": "integer"
+        },
+        "available": {
+            "type": "boolean"
+        }
+    }
+}

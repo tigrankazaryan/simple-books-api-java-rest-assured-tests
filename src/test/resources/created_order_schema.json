@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "required": [
+        "created",
+        "orderId"
+    ],
+    "properties": {
+        "created": {
+            "type": "boolean"
+        },
+        "orderId": {
+            "type": "string"
+        }
+    }
+}
